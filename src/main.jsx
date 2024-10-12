@@ -5,6 +5,8 @@ import MainLayout from './layouts/MainLayout.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MainLayout></MainLayout>
+    <div className='max-w-screen-2xl mx-auto'>
+      <MainLayout></MainLayout>
+    </div>
   </StrictMode>,
 )

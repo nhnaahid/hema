@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "category": "halloween",
+        "image": "/public/images/categories/halloween.jpg"
+    },
+    {
+        "id": 2,
+        "category": "baby",
+        "image": "/public/images/categories/baby.webp"
+    },
+    {
+        "id": 3,
+        "category": "child",
+        "image": "/public/images/categories/child.webp"
+    },
+    {
+        "id": 4,
+        "category": "women",
+        "image": "/public/images/categories/women.webp"
+    },
+    {
+        "id": 5,
+        "category": "men",
+        "image": "/public/images/categories/men.webp"
+    },
+    {
+        "id": 6,
+        "category": "living and sleeping",
+        "image": "/public/images/categories/living.webp"
+    },
+    {
+        "id": 7,
+        "category": "cake, food and drinks",
+        "image": "/public/images/categories/cakes.webp"
+    },
+    {
+        "id": 8,
+        "category": "leisure and office",
+        "image": "/public/images/categories/leisure.webp"
+    },
+    {
+        "id": 9,
+        "category": "cooking and dining",
+        "image": "/public/images/categories/cooking.webp"
+    },
+    {
+        "id": 10,
+        "category": "party and gift",
+        "image": "/public/images/categories/party.webp"
+    },
+    {
+        "id": 11,
+        "category": "beauty and health",
+        "image": "/public/images/categories/beauty.webp"
+    },
+    {
+        "id": 12,
+        "category": "toys",
+        "image": "/public/images/categories/toys.webp"
+    },
+    {
+        "id": 13,
+        "category": "photo services",
+        "image": "/public/images/categories/photo.webp"
+    },
+    {
+        "id": 14,
+        "category": "friends prices",
+        "image": "/public/images/categories/prices.webp"
+    },
+    {
+        "id": 15,
+        "category": "offers and sales",
+        "image": "/public/images/categories/offers.webp"
+    },
+    {
+        "id": 16,
+        "category": "new",
+        "image": "/public/images/categories/new.webp"
+    }
+]

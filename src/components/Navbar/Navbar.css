@@ -1,0 +1,19 @@
+nav ul a {
+    position: relative;
+    margin: 0 10px;
+}
+
+nav ul a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s ease-in-out;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}

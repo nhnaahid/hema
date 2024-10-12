@@ -5,7 +5,9 @@ import Home from "../pages/Home/Home";
 const MainLayout = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            <div className="h-32">
+                <Navbar></Navbar>
+            </div>
             <Home></Home>
             <Footer></Footer>
         </div>
