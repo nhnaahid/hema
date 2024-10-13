@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <footer className="mt-64 border-t">
-            <div className="w-[90%] mx-auto flex justify-between mt-16">
+            <div className="w-[90%] mx-auto flex flex-col md:flex-row justify-between mt-16">
                 <div className="w-1/3 space-y-3">
                     <h1 className="text-2xl font-bold">follow HEMA</h1>
                     <div className=" flex items-center gap-2">
