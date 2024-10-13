@@ -59,7 +59,6 @@ const Categories = () => {
         };
         window.addEventListener("resize", handleResize);
 
-        // Cleanup on component unmount
         return () => {
             window.removeEventListener("resize", handleResize);
         };
@@ -93,7 +92,7 @@ const Categories = () => {
                         <figure className="bg-[#f6f6f6] rounded-full w-20 md:24 xl:w-32 mx-auto overflow-hidden">
                             <img className="w-full h-full rounded-full hover:scale-110 duration-500" src={cat.image} alt="" />
                         </figure>
-                        <p className="text-center">{cat.category}</p>
+                        <p className="text-center font-semibold">{cat.category}</p>
                     </div>
                 ))}
             </Slider>
