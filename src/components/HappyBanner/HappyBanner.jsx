@@ -10,7 +10,7 @@ function SampleNextArrow(props) {
     const { onClick, currentSlide, totalSlides } = props;
     console.log("current slide: ", currentSlide, totalSlides);
     return (
-        <div className={`${(currentSlide == 8 || currentSlide == 10 || currentSlide == 13) && "hidden"} absolute right-0 top-1/2 -translate-y-1/2 p-3 md:p-5 rounded-full bg-white text-lg md:text-xl cursor-pointer`} onClick={onClick} >
+        <div className={`${(currentSlide == 7 || currentSlide == 9 || currentSlide == 10) && "hidden"} absolute right-0 top-1/2 -translate-y-1/2 p-3 md:p-5 rounded-full bg-white text-lg md:text-xl cursor-pointer`} onClick={onClick} >
             <FaArrowRight />
         </div>
     );
@@ -53,7 +53,7 @@ const HappyBanner = () => {
                 setTotalSlides(total);
             }
             else {
-                const total = Math.ceil(categories.length / 2);
+                const total = Math.ceil(categories.length / 1);
                 setTotalSlides(total);
             }
         };
@@ -69,8 +69,8 @@ const HappyBanner = () => {
         infinite: false,
         speed: 500,
         initialSlide: 0,
-        slidesToShow: windowWidth > 1024 ? 4 : windowWidth > 768 ? 2 : 2,
-        slidesToScroll: windowWidth > 1024 ? 4 : windowWidth > 768 ? 2 : 2,
+        slidesToShow: windowWidth > 1024 ? 4 : windowWidth > 768 ? 2 : 1,
+        slidesToScroll: windowWidth > 1024 ? 4 : windowWidth > 768 ? 2 : 1,
         nextArrow: (
             <SampleNextArrow
                 currentSlide={currentSlide}
@@ -95,13 +95,18 @@ const HappyBanner = () => {
             <div className="slider-container w-[85%] md:w-[90%] mx-auto my-5 absolute -bottom-56">
 
                 <Slider {...settings} className="relative">
-                    {categories.map(cat => (
-                        <div key={cat.id} className="space-y-2">
+                    {categories.slice(1, 12).map(cat => (
+                        <div key={cat.id} className="space-y-2 relative">
                             <figure className="bg-[#f6f6f6] rounded-xl overflow-hidden ml-5">
                                 <img className="w-full h-full rounded-xl hover:scale-105 duration-500" src={cat.image} alt="" />
                             </figure>
                             <p className="text-center font-bold">{cat.category}</p>
                             <p className="text-center">valid till {cat.date}</p>
+
+                            <div className="absolute bg-red-600 text-white rounded-md p-2 z-50 top-0 left-7">
+                                <p className="text-2xl font-bold">{cat.discount}%</p>
+                                <p className="font-bold">discount</p>
+                            </div>
                         </div>
                     ))}
                 </Slider>
