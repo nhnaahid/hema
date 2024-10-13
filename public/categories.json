@@ -2,81 +2,81 @@
     {
         "id": 1,
         "category": "halloween",
-        "image": "/public/images/categories/halloween.jpg"
+        "image": "/public/images/categories/halloween.png"
     },
     {
         "id": 2,
         "category": "baby",
-        "image": "/public/images/categories/baby.webp"
+        "image": "/public/images/categories/baby.png"
     },
     {
         "id": 3,
         "category": "child",
-        "image": "/public/images/categories/child.webp"
+        "image": "/public/images/categories/child.png"
     },
     {
         "id": 4,
         "category": "women",
-        "image": "/public/images/categories/women.webp"
+        "image": "/public/images/categories/women.png"
     },
     {
         "id": 5,
         "category": "men",
-        "image": "/public/images/categories/men.webp"
+        "image": "/public/images/categories/men.png"
     },
     {
         "id": 6,
         "category": "living and sleeping",
-        "image": "/public/images/categories/living.webp"
+        "image": "/public/images/categories/living.png"
     },
     {
         "id": 7,
         "category": "cake, food and drinks",
-        "image": "/public/images/categories/cakes.webp"
+        "image": "/public/images/categories/cakes.png"
     },
     {
         "id": 8,
         "category": "leisure and office",
-        "image": "/public/images/categories/leisure.webp"
+        "image": "/public/images/categories/leisure.png"
     },
     {
         "id": 9,
         "category": "cooking and dining",
-        "image": "/public/images/categories/cooking.webp"
+        "image": "/public/images/categories/cooking.png"
     },
     {
         "id": 10,
         "category": "party and gift",
-        "image": "/public/images/categories/party.webp"
+        "image": "/public/images/categories/party.png"
     },
     {
         "id": 11,
         "category": "beauty and health",
-        "image": "/public/images/categories/beauty.webp"
+        "image": "/public/images/categories/beauty.png"
     },
     {
         "id": 12,
         "category": "toys",
-        "image": "/public/images/categories/toys.webp"
+        "image": "/public/images/categories/toys.png"
     },
     {
         "id": 13,
         "category": "photo services",
-        "image": "/public/images/categories/photo.webp"
+        "image": "/public/images/categories/photo.png"
     },
     {
         "id": 14,
         "category": "friends prices",
-        "image": "/public/images/categories/prices.webp"
+        "image": "/public/images/categories/prices.png"
     },
     {
         "id": 15,
         "category": "offers and sales",
-        "image": "/public/images/categories/offers.webp"
+        "image": "/public/images/categories/offers.png"
     },
     {
         "id": 16,
         "category": "new",
-        "image": "/public/images/categories/new.webp"
+        "image": "/public/images/categories/new.png"
     }
 ]
