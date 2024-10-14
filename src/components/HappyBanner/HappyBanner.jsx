@@ -83,14 +83,14 @@ const HappyBanner = () => {
     };
 
     return (
-        <div className='bg-[#9c1aff] flex flex-col-reverse md:flex-row items-center justify-between w-[99%] md:w-[90%] mx-auto rounded-xl mt-16 px-10 pt-10 pb-36 relative'>
-            <div className='text-white w-full md:w-1/3 space-y-5 h-[400px]'>
-                <h2 className='text-3xl md:text-5xl font-bold mt-5 md:mt-0'>20% off almost everything!</h2>
-                <p>Today only until 23:59 20% discount on almost all items in the range. </p>
-                <button className='border-2 w-3/5 rounded-lg p-3 font-bold hover:bg-white hover:text-black hover:border-white'>shop</button>
+        <div className='bg-[#ce8dff] flex flex-col-reverse md:flex-row items-center justify-between w-[99%] md:w-[90%] mx-auto rounded-xl mt-24 px-10 pt-10 pb-36 relative'>
+            <div className=' w-full md:w-1/3 space-y-5 h-[400px]'>
+                <h2 className='text-3xl md:text-5xl font-bold mt-5 md:mt-0'>everything to make your house a cheerful home</h2>
+                <p>from colorful candles to bedding to dream away in</p>
+                <button className='border-2 border-gray-800 w-3/5 rounded-lg p-3 font-bold hover:bg-gray-800 hover:text-white'>discover living and sleeping</button>
             </div>
-            <figure className="w-full md:w-3/5">
-                <img src="/public/images/banner/happy.webp" alt="" />
+            <figure className="w-full md:w-3/5 rounded-xl absolute right-[2%] -top-[5%]">
+                <img className="rounded-xl" src="/public/images/banner/banner.png" alt="" />
             </figure>
             <div className="slider-container w-[85%] md:w-[90%] mx-auto my-5 absolute -bottom-1/3 md:-bottom-1/2 lg:-bottom-1/3">
 
