@@ -7,22 +7,22 @@ const Footer = () => {
                 <div className="w-4/5 mx-auto md:mx-0 md:w-1/3 space-y-3 text-center md:text-start">
                     <h1 className="text-2xl font-bold">follow HEMA</h1>
                     <div className=" flex items-center gap-2 justify-center md:justify-start">
-                        <img className="w-10" src="/public/images/footer/fb.png" alt="" />
-                        <img className="w-10" src="/public/images/footer/x.png" alt="" />
-                        <img className="w-8" src="/public/images/footer/wa.png" alt="" />
-                        <img className="w-10" src="/public/images/footer/ig.png" alt="" />
-                        <img className="w-10" src="/public/images/footer/pin.png" alt="" />
-                        <img className="w-10" src="/public/images/footer/yt.png" alt="" />
+                        <img className="w-10" src="/images/footer/fb.png" alt="" />
+                        <img className="w-10" src="/images/footer/x.png" alt="" />
+                        <img className="w-8" src="/images/footer/wa.png" alt="" />
+                        <img className="w-10" src="/images/footer/ig.png" alt="" />
+                        <img className="w-10" src="/images/footer/pin.png" alt="" />
+                        <img className="w-10" src="/images/footer/yt.png" alt="" />
                     </div>
                 </div>
 
                 <div className="w-4/5 mx-auto md:mx-0 md:w-1/3 space-y-3 text-center md:text-start">
                     <h1 className="text-2xl font-bold">easy payment*</h1>
                     <div className=" flex items-center gap-2 justify-center md:justify-start">
-                        <img className="w-8" src="/public/images/footer/master.png" alt="" />
-                        <img className="w-8" src="/public/images/footer/visa.png" alt="" />
-                        <img className="w-7" src="/public/images/footer/ae.png" alt="" />
-                        <img className="w-8" src="/public/images/footer/pp.png" alt="" />
+                        <img className="w-8" src="/images/footer/master.png" alt="" />
+                        <img className="w-8" src="/images/footer/visa.png" alt="" />
+                        <img className="w-7" src="/images/footer/ae.png" alt="" />
+                        <img className="w-8" src="/images/footer/pp.png" alt="" />
                     </div>
                 </div>
 
@@ -89,7 +89,7 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col md:flex-row text-center md:text-start items-center w-[90%] mx-auto p-5 border-b justify-between">
-                <img src="/public/logo.svg" alt="" />
+                <img src="/logo.svg" alt="" />
                 <div>
                     <a className="border-r-2 px-2" href="">privacy statement</a>
                     <a className="border-r-2 px-2" href="">disclaimer</a>

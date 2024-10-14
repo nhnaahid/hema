@@ -2,112 +2,112 @@
     {
         "id": 1,
         "category": "halloween",
-        "image": "/public/images/categories/halloween.png",
+        "image": "/images/categories/halloween.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 2,
         "category": "baby",
-        "image": "/public/images/categories/baby.png",
+        "image": "/images/categories/baby.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 3,
         "category": "child",
-        "image": "/public/images/categories/child.png",
+        "image": "/images/categories/child.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 4,
         "category": "women",
-        "image": "/public/images/categories/women.png",
+        "image": "/images/categories/women.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 5,
         "category": "men",
-        "image": "/public/images/categories/men.png",
+        "image": "/images/categories/men.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 6,
         "category": "living and sleeping",
-        "image": "/public/images/categories/living.png",
+        "image": "/images/categories/living.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 7,
         "category": "cake, food and drinks",
-        "image": "/public/images/categories/cakes.png",
+        "image": "/images/categories/cakes.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 8,
         "category": "leisure and office",
-        "image": "/public/images/categories/leisure.png",
+        "image": "/images/categories/leisure.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 9,
         "category": "cooking and dining",
-        "image": "/public/images/categories/cooking.png",
+        "image": "/images/categories/cooking.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 10,
         "category": "party and gift",
-        "image": "/public/images/categories/party.png",
+        "image": "/images/categories/party.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 11,
         "category": "beauty and health",
-        "image": "/public/images/categories/beauty.png",
+        "image": "/images/categories/beauty.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 12,
         "category": "toys",
-        "image": "/public/images/categories/toys.png",
+        "image": "/images/categories/toys.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 13,
         "category": "photo services",
-        "image": "/public/images/categories/photo.png",
+        "image": "/images/categories/photo.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 14,
         "category": "friends prices",
-        "image": "/public/images/categories/prices.png",
+        "image": "/images/categories/prices.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 15,
         "category": "offers and sales",
-        "image": "/public/images/categories/offers.png",
+        "image": "/images/categories/offers.png",
         "discount": 20,
         "date": "October 13"
     },
     {
         "id": 16,
         "category": "new",
-        "image": "/public/images/categories/new.png",
+        "image": "/images/categories/new.png",
         "discount": 20,
         "date": "October 13"
     }

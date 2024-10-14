@@ -60,7 +60,7 @@ const Navbar = () => {
                     <div className='w-[90%] mx-auto flex justify-between items-center gap-16'>
                         {/* logo + menu icon + categories */}
                         <div className='flex gap-10'>
-                            <img className="w-14" src="/public/logo.svg" alt="hema logo" />
+                            <img className="w-14" src="/logo.svg" alt="hema logo" />
                             <div className="flex items-center gap-3">
                                 <IoMdMenu className='text-3xl' />
                                 <div className="flex items-center gap-1">
@@ -97,7 +97,7 @@ const Navbar = () => {
                 <div className='relative'>
                     {/* main nav */}
                     <div className='w-[90%] mx-auto flex justify-between'>
-                        <img className="w-14" src="/public/logo.svg" alt="hema logo" />
+                        <img className="w-14" src="/logo.svg" alt="hema logo" />
                         <div className='hidden md:block'>
                             <div className="relative flex-1">
                                 <input type="text" name="search" id="search" className="w-full rounded-3xl p-2 bg-gray-100" placeholder="What are you looking for?" />

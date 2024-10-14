@@ -33,7 +33,7 @@ const HappyBanner = () => {
     const [totalSlides, setTotalSlides] = useState(0);
 
     useEffect(() => {
-        fetch('/public/categories.json')
+        fetch('/categories.json')
             .then(res => res.json())
             .then((data) => {
                 setCategories(data);
@@ -90,7 +90,7 @@ const HappyBanner = () => {
                 <button className='border-2 border-gray-800 w-4/5 md:w-3/5 rounded-lg p-3 font-bold hover:bg-gray-800 hover:text-white'>discover living and sleeping</button>
             </div>
             <figure className="w-full md:w-3/5 rounded-xl lg:absolute lg:right-[2%] lg:-top-[5%]">
-                <img className="rounded-xl" src="/public/images/banner/banner.png" alt="" />
+                <img className="rounded-xl" src="/images/banner/banner.png" alt="" />
             </figure>
             <div className="slider-container w-[85%] md:w-[90%] mx-auto my-5 absolute -bottom-1/3 md:-bottom-1/2 lg:-bottom-1/3">
 

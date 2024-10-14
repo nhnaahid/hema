@@ -7,7 +7,7 @@ import { RxCross2 } from 'react-icons/rx';
 const Sidebar = ({ isOpen, setIsOpen, upLeftNavLinks, upRightNavLInks }) => {
     const [categories, setCategories] = useState([]);
     useEffect(() => {
-        fetch('/public/categories.json')
+        fetch('/categories.json')
             .then(res => res.json())
             .then(data => setCategories(data))
     }, [])
@@ -16,7 +16,7 @@ const Sidebar = ({ isOpen, setIsOpen, upLeftNavLinks, upRightNavLInks }) => {
 
             {/* logo + search bar + close button */}
             <div className='flex items-center justify-between gap-5'>
-                <img className="w-14" src="/public/logo.svg" alt="hema logo" />
+                <img className="w-14" src="/logo.svg" alt="hema logo" />
                 <div className=''>
                     <div className="relative flex-1">
                         <input type="text" name="search" id="search" className="w-full rounded-3xl p-2 bg-gray-100" placeholder="search..." />
