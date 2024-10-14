@@ -38,7 +38,6 @@ Make sure you have the following installed on your machine:
 
 or if you're using yarn:
 
-    ```bash
     yarn install
 
 4. Running the Project
