@@ -19,7 +19,7 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
     const { onClick, currentSlide } = props;
     return currentSlide > 0 ? (
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-3 md:p-5 z-10 text-lg md:text-xl cursor-pointer" onClick={onClick} >
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-3 md:p-5 z-20 text-lg md:text-xl cursor-pointer" onClick={onClick} >
             <FaArrowLeft />
         </div>
     ) : null;
@@ -87,9 +87,9 @@ const HappyBanner = () => {
             <div className=' w-full md:w-1/3 space-y-5 h-[400px]'>
                 <h2 className='text-3xl md:text-5xl font-bold mt-5 md:mt-0'>everything to make your house a cheerful home</h2>
                 <p>from colorful candles to bedding to dream away in</p>
-                <button className='border-2 border-gray-800 w-3/5 rounded-lg p-3 font-bold hover:bg-gray-800 hover:text-white'>discover living and sleeping</button>
+                <button className='border-2 border-gray-800 w-4/5 md:w-3/5 rounded-lg p-3 font-bold hover:bg-gray-800 hover:text-white'>discover living and sleeping</button>
             </div>
-            <figure className="w-full md:w-3/5 rounded-xl absolute right-[2%] -top-[5%]">
+            <figure className="w-full md:w-3/5 rounded-xl lg:absolute lg:right-[2%] lg:-top-[5%]">
                 <img className="rounded-xl" src="/public/images/banner/banner.png" alt="" />
             </figure>
             <div className="slider-container w-[85%] md:w-[90%] mx-auto my-5 absolute -bottom-1/3 md:-bottom-1/2 lg:-bottom-1/3">
@@ -103,7 +103,7 @@ const HappyBanner = () => {
                             <p className="text-center font-bold">{cat.category}</p>
                             <p className="text-center">valid till {cat.date}</p>
 
-                            <div className="absolute bg-red-600 text-white rounded-md p-2 z-50 top-0 left-7">
+                            <div className="absolute bg-red-600 text-white rounded-md p-2 z-30 top-0 left-7">
                                 <p className="text-2xl font-bold">{cat.discount}%</p>
                                 <p className="font-bold">discount</p>
                             </div>

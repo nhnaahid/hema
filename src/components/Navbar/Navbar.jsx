@@ -56,7 +56,7 @@ const Navbar = () => {
                 </div>
 
                 {/* fixed nav */}
-                <div className={`py-3 z-10 bg-white transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 shadow-lg' : 'relative'}`}>
+                <div className={`py-3 z-[900] bg-white transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 shadow-lg' : 'relative'}`}>
                     <div className='w-[90%] mx-auto flex justify-between items-center gap-16'>
                         {/* logo + menu icon + categories */}
                         <div className='flex gap-10'>
@@ -79,10 +79,10 @@ const Navbar = () => {
                         <div className="flex items-center justify-end gap-5">
                             <button className="flex items-center gap-2 hover:bg-gray-100 p-2 rounded-lg duration-500"><FaRegUser /> <p>log in</p></button>
                             <div className='hover:bg-gray-100 p-2 rounded-xl'>
-                                <FaRegHeart />
+                                <FaRegHeart className='text-lg' />
                             </div>
                             <div className='hover:bg-gray-100 p-2 rounded-xl'>
-                                <BsHandbag />
+                                <BsHandbag className='text-lg'/>
                             </div>
                         </div>
 
@@ -93,7 +93,7 @@ const Navbar = () => {
             </div>
 
             {/*------------------- small & medium screen -------------*/}
-            <div className='block lg:hidden py-2 space-y-3 fixed w-full bg-white shadow-md'>
+            <div className='block lg:hidden py-2 space-y-3 fixed w-full bg-white shadow-md z-[900]'>
                 <div className='relative'>
                     {/* main nav */}
                     <div className='w-[90%] mx-auto flex justify-between'>
@@ -117,7 +117,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/* search box */}
-                    <div className={`w-[90%] mx-auto block md:hidden ${isSticky ? 'hidden' : 'block'}`}>
+                    <div className={`w-[90%] mx-auto block md:hidden ${isSticky ? 'hidden' : 'block'} mt-5`}>
                         <div className="relative flex-1">
                             <input type="text" name="search" id="search" className="w-full rounded-3xl p-2 bg-gray-100" placeholder="What are you looking for?" />
                             <IoIosSearch className="text-xl absolute right-3 top-1/2 transform -translate-y-1/2" />
