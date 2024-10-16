@@ -9,7 +9,7 @@ const NewLiving = () => {
             </div>
             <div className="flex items-start">
                 <div className="text-white flex items-center gap-2 font-bold">
-                    <p>View all</p>
+                    <p className="hover:border-b border-white">View all</p>
                     <FaArrowRight />
                 </div>
             </div>
