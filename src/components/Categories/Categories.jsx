@@ -85,7 +85,7 @@ const Categories = () => {
 
 
     return (
-        <div className="slider-container w-[85%] md:w-[90%] mx-auto mb-5 mt-16">
+        <div className="slider-container w-[85%] md:w-[90%] mx-auto mb-5 mt-7">
             <Slider {...settings} className="relative ">
                 {categories.map(cat => (
                     <div key={cat.id} className="space-y-3">
